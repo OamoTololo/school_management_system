@@ -1,4 +1,12 @@
 <?php
 include('includes/top.php');
 ?>
-<button class=""btn btn-primary>Hello</button>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 mt-2">
+            <?php
+                include('includes/navbar.php');
+            ?>
+        </div>
+    </div>
+</div>

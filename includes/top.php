@@ -8,8 +8,9 @@
     <!-- Bootstrap CSS -->
     <title>Hello, world!</title>
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet"/>
     
     <script>
@@ -17,11 +18,11 @@
             font-family: 'Raleway', sans-serif;
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-    
   </head>
 
   <body>
