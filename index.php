@@ -6,6 +6,7 @@ include('includes/top.php');
         <div class="col-lg-12 mt-2">
             <?php
                 include('includes/navbar.php');
+                include('includes/slider.php');
             ?>
         </div>
     </div>
