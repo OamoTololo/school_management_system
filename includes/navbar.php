@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-  <a class="navbar-brand text-white" href="index.php">Mafumbuka Primary School</a>
+  <a class="navbar-brand text-white" href="index.php">Sgela sa Mfana Sosha</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -10,46 +10,31 @@
 
       <li class="nav-item active"><a class="nav-link text-white" href="index.php"><i class="fa-solid fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
       <li class="nav-item"><a class="nav-link text-white" href="about-us.php"><i class="fa-solid
-              fa-laptop"></i>About</a></li>
+              fa-laptop"></i> About</a></li>
       <li class="nav-item"><a class="nav-link text-white" href="student.php"><i class="fa-solid
-      fa-user"></i>Student</a></li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="other-stuff.php" role="button" data-toggle="dropdown"
-               aria-expanded="false">
-                <i class="fa-solid fa-graduation-cap"></i>Stuff
-            </a>
-
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="download.php">Teacher's</a>
-                <a class="dropdown-item" href="result.php">Admin</a>
-                <a class="dropdown-item" href="result.php">General Worker's</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="student-corner.php">Principle</a>
-            </div>
-
-        </li>
+      fa-user"></i> Student</a></li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-white" href="other-stuff.php" role="button" data-toggle="dropdown"
            aria-expanded="false">
-          <i class="fa-solid fa-graduation-cap"></i>Other Stuff
+          <i class="fa-solid fa-graduation-cap"></i> Other Stuff
         </a>
 
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="download.php">Download</a>
-          <a class="dropdown-item" href="result.php">Results</a>
+          <a class="dropdown-item" href="download.php"> Download</a>
+          <a class="dropdown-item" href="result.php"> Results</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="student-corner.php">Student's Corner</a>
+          <a class="dropdown-item" href="student-corner.php"> Student's Corner</a>
         </div>
 
       </li>
 
       <li class="nav-item">
-        <a class="nav-link text-white" href="gallery.php" tabindex="-1"><i class="fa-solid fa-image"></i>Gallery</a>
+        <a class="nav-link text-white" href="gallery.php" tabindex="-1"><i class="fa-solid fa-image"></i> Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="contact-us.php" tabindex="-1"><i class="fa-solid fa-envelope"></i>Contact Us</a>
+        <a class="nav-link text-white" href="contact-us.php" tabindex="-1"><i class="fa-solid fa-envelope"></i>
+            Contact Us</a>
       </li>
-
     </ul>
 
     <ul class="navbar-nav ml-auto">
@@ -61,10 +46,10 @@
             <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-cog"></i>
             </a>
-        <div class="dropdown-menu dropdown-menu-right">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarSupportedContent">
           <a class="dropdown-item" href="admin/login.php">Admin</a>
           <a class="dropdown-item" href="#">Lecturer</a>
-          <a class="dropdown-item" href="#">Student</a>
+          <a class="dropdown-item" href="login.php">Student</a>
         </div>
       </li>
     </ul>

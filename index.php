@@ -12,9 +12,9 @@ include('includes/top.php');
     </div>
 
     <div class="row mt-2">
-        <div class="col-md-9">
-            <h2 class="bg-dark text-white text center">Welcome to Mafumbuka Primary School</h2>
-            <p class="text-justify"><b class="text-danger">Mafumbuka Primary School </b> Lorem ipsum dolor sit amet
+        <div class="col-md-12">
+            <h2 class="bg-dark text-white text-center">Welcome to Sgela sa Sosha</h2>
+            <p class="text-justify"><b class="text-danger">Sgeka sa Sosha </b> Lorem ipsum dolor sit amet
                 consectetur adipisicing elit. Fugit, ex modi? Sit placeat officiis quos illo magnam architecto vitae veniam, rerum, corporis dignissimos vero ea quae ab cupiditate ducimus nihil, provident error eius optio recusandae enim! Quidem accusamus placeat consequatur quisquam, quaerat voluptates quos? Perspiciatis quae asperiores necessitatibus tempora in. Minima asperiores tenetur mollitia facere pariatur id velit incidunt dolores. Maiores doloribus vero officia eius? Numquam in veniam sunt sequi vitae voluptatibus, quis asperiores neque saepe vero, atque corrupti voluptatum!</p><hr>
 
             <h2 class="bg-dark text-white text-center">Our Facilities</h2>

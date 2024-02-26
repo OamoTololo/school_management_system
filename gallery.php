@@ -4,9 +4,7 @@ include('includes/top.php');
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12 mt-2">
-            <?php
-            include('includes/navbar.php');
-            ?>
+            <?php include('includes/navbar.php'); ?>
         </div>
     </div>
 
@@ -14,28 +12,28 @@ include('includes/top.php');
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250px;">
                 </div>
                 <div class="col-md-3 mt-2">
-                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px" height="250px">
+                    <img src="images/gallery/playground.jpg" class="img-fluid" width="350px;" height="250p;x">
                 </div>
             </div>
 
@@ -50,6 +48,7 @@ include('includes/top.php');
                     </ul>
                 </div>
             </div>
+
         </div>
     </div>
 

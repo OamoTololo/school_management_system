@@ -34,17 +34,6 @@ include('includes/top.php');
 
                     <a href="gallery.php" class="btn btn-danger">View Gallery</a>
                 </div>
-                <!--        <div class="col-md-3">-->
-                <!---->
-                <!--            <div class="card bg-warning text-white">-->
-                <!--                <div class="card-body">-->
-                <!--                    <h4 class="card-title text-center">Parents Review</h4>-->
-                <!--                </div>-->
-                <!--            </div>-->
-                <!---->
-                <!--            <img src="images/about-card-pic.jpg" style="width: 100%; height: 60%;" alt="Picture">-->
-                <!---->
-                <!--        </div>-->
             </div>
 
         </div>

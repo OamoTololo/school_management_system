@@ -1,3 +1,32 @@
+<?php
+ob_start();
+session_start();
+require_once ('includes/db.php');
+
+try {
+    if (isset($_POST['login-submit-button'])) {
+
+        $username = mysqli_real_escape_string($connection, $_POST['username']);
+        $password = mysqli_real_escape_string($connection, $_POST['password']);
+
+        $get_user = "SELECT * FROM tblUsers WHERE username = '$username' AND user_password = '$password'";
+        $run_user = mysqli_query($connection, $get_user);
+
+        $check_user = mysqli_num_rows($run_user);
+
+        if ($check_user == 1) {
+            $_SESSION['username'] = $username;
+            header('Location: index.php');
+        }else {
+            echo "<script>window.alert('Email or Password is incorrect...Try Again!!!')</script>";
+        }
+    }
+}catch (Exception $e)
+{
+    echo "<script>window.alert('Login failed!!! Contact Admin.')</script>";
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,25 +55,26 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row mt-5">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <form class="" method="post" action="">
-                    <h3 class="text-danger text-center mb-4"><strong>Admin Area</strong></h3>
-                    <h2 class="text-danger text-center">Sign In</h2><hr>
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form class="" method="post" action="">
+                <h3 class="text-danger text-center mb-4"><strong>Admin Area</strong></h3>
+                <h2 class="text-danger text-center">Sign In</h2><hr>
 
-                    <label class="text-danger">Username</label>
-                    <input type="text" class="form-control" name="username" placeholder="Username" required /><br>
-                    <label class="text-danger">Password</label>
-                    <input type="password" class="form-control" name="password" placeholder="Password" required /><br>
+                <label class="text-danger">Username</label>
+                <input type="text" class="form-control" name="username" placeholder="Username" required /><br>
+                <label class="text-danger">Password</label>
+                <input type="password" class="form-control" name="password" placeholder="Password" required
+                /><br>
 
-                    <button class="btn btn-danger btn-block" type="submit" name="login-submit-button">Submit</button>
-                </form>
-            </div>
-            <div class="col-md-4"></div>
+                <button class="btn btn-danger btn-block" type="submit" name="login-submit-button">Submit</button>
+            </form>
         </div>
+        <div class="col-md-4"></div>
     </div>
+</div>
 </body>
 
 </html>

@@ -4,26 +4,27 @@
                 <div class="row text-center text-md-left">
 
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Mafumbuka Primary School</h5>
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Sosha IT Academy.</h5>
                         <p>Ntwana Sosha is an IT brand designed by <a href="">Oamogestwe Mgidi</a> to assist top schools, keep
                             track of the students test scores, exams scores, progress report, attendance report, overall scores and etc.</p>
                     </div>
 
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
-                        <p>
-                            <a href="" class="text-white" style="text-decoration: none;">The Providers</a>
-                        </p>
-                        <p>
-                            <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
-                        </p>
-                        <p>
-                            <a href="" class="text-white" style="text-decoration: none;">Source Files</a>
-                        </p>
-                        <p>
-                            <a href="" class="text-white" style="text-decoration: none;">Bootstrap 5 alpha</a>
-                        </p>
-
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Menu</h5>
+                        <ul>
+                            <li>
+                                <a href="" class="text-white" style="text-decoration: none;">The Providers</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white" style="text-decoration: none;">Source Files</a>
+                            </li>
+                            <li>
+                                <a href="" class="text-white" style="text-decoration: none;">Bootstrap 5 alpha</a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
